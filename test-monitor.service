@@ -1,0 +1,7 @@
+[Unit]
+Description=Test process monitoring
+After=network.target
+
+[Service]
+Type=simple
+ExecStart=/usr/local/bin/test_monitor.sh
